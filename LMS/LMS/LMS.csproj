@@ -1,0 +1,373 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F9925B5B-A3C9-4625-97FC-73FB86DFB89E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LMS</RootNamespace>
+    <AssemblyName>LMS</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AbsarDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AbsarDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Requests.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_Requests.Designer.cs">
+      <DependentUpon>Admin_Requests.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Attandence.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Attandence.Designer.cs">
+      <DependentUpon>Attandence.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Attendance_Panel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Attendance_Panel.Designer.cs">
+      <DependentUpon>Attendance_Panel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Attendance_Report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Attendance_Report.Designer.cs">
+      <DependentUpon>Attendance_Report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LMSDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LMSDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LMSDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LMSDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LMSDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LMSDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LMSDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LMSDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LMSDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LMSDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Student_Profile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student_Profile.Designer.cs">
+      <DependentUpon>Student_Profile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Classes.Designer.cs">
+      <DependentUpon>Classes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Head.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Head.Designer.cs">
+      <DependentUpon>Head.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Head_Interface.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Head_Interface.Designer.cs">
+      <DependentUpon>Head_Interface.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Head_Moderation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Head_Moderation.Designer.cs">
+      <DependentUpon>Head_Moderation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LMSDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LMSDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LMSDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LMSDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LMSDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LMSDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Register.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Register.Designer.cs">
+      <DependentUpon>Register.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Result.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Result.Designer.cs">
+      <DependentUpon>Result.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Student_Interface.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student_Interface.Designer.cs">
+      <DependentUpon>Student_Interface.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Teacher_Interface.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Teacher_Interface.Designer.cs">
+      <DependentUpon>Teacher_Interface.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Teacher_Profile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Teacher_Profile.Designer.cs">
+      <DependentUpon>Teacher_Profile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Teacher_Result.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Teacher_Result.Designer.cs">
+      <DependentUpon>Teacher_Result.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Teacher_Schedule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Teacher_Schedule.Designer.cs">
+      <DependentUpon>Teacher_Schedule.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Admin_Requests.resx">
+      <DependentUpon>Admin_Requests.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Attandence.resx">
+      <DependentUpon>Attandence.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Attendance_Panel.resx">
+      <DependentUpon>Attendance_Panel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Attendance_Report.resx">
+      <DependentUpon>Attendance_Report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student_Profile.resx">
+      <DependentUpon>Student_Profile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Classes.resx">
+      <DependentUpon>Classes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Head.resx">
+      <DependentUpon>Head.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Head_Interface.resx">
+      <DependentUpon>Head_Interface.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Head_Moderation.resx">
+      <DependentUpon>Head_Moderation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Register.resx">
+      <DependentUpon>Register.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Result.resx">
+      <DependentUpon>Result.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Student_Interface.resx">
+      <DependentUpon>Student_Interface.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teacher_Interface.resx">
+      <DependentUpon>Teacher_Interface.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teacher_Profile.resx">
+      <DependentUpon>Teacher_Profile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teacher_Schedule.resx">
+      <DependentUpon>Teacher_Schedule.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="AbsarDataSet.xsc">
+      <DependentUpon>AbsarDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="AbsarDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AbsarDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AbsarDataSet.xss">
+      <DependentUpon>AbsarDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="LMSDataSet.xsc">
+      <DependentUpon>LMSDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="LMSDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LMSDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LMSDataSet.xss">
+      <DependentUpon>LMSDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="LMSDataSet1.xsc">
+      <DependentUpon>LMSDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="LMSDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LMSDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LMSDataSet1.xss">
+      <DependentUpon>LMSDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="LMSDataSet2.xsc">
+      <DependentUpon>LMSDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="LMSDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LMSDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LMSDataSet2.xss">
+      <DependentUpon>LMSDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="LMSDataSet3.xsc">
+      <DependentUpon>LMSDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="LMSDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LMSDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LMSDataSet3.xss">
+      <DependentUpon>LMSDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="LMSDataSet4.xsc">
+      <DependentUpon>LMSDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="LMSDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LMSDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LMSDataSet4.xss">
+      <DependentUpon>LMSDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="LMSDataSet5.xsc">
+      <DependentUpon>LMSDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="LMSDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LMSDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LMSDataSet5.xss">
+      <DependentUpon>LMSDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="LMSDataSet6.xsc">
+      <DependentUpon>LMSDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="LMSDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LMSDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LMSDataSet6.xss">
+      <DependentUpon>LMSDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="LMSDataSet7.xsc">
+      <DependentUpon>LMSDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="LMSDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LMSDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LMSDataSet7.xss">
+      <DependentUpon>LMSDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
