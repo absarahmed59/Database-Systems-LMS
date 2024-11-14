@@ -12,9 +12,12 @@ namespace LMS
 {
     public partial class Attendance_Report : Form
     {
-        public Attendance_Report()
+
+        public Attendance_Report(string s)
         {
+
             InitializeComponent();
+            textBox1.Text = s;
         }
 
         private void button1_Click(object sender, EventArgs e)

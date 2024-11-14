@@ -34,7 +34,7 @@ namespace LMS
             this.attendanceTableAdapter.Fill(this.lMSDataSet7.Attendance);
 
         }
-        int Semester = Convert.ToInt16(textBox1.Text);
+        //int Semester = Convert.ToInt16(textBox1.Text);
         
         private void button1_Click(object sender, EventArgs e)
         {
