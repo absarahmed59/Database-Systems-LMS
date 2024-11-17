@@ -32,5 +32,26 @@ namespace LMS
             Student_Profile f = new Student_Profile(user);
             f.Show();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Student_Result f = new Student_Result(user);
+            f.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Student_Attendance f = new Student_Attendance(user);
+            f.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Student_Schedule f = new Student_Schedule(user);
+            f.Show();
+        }
     }
 }

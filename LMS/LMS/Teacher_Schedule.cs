@@ -25,5 +25,17 @@ namespace LMS
             Teacher_Interface f = new Teacher_Interface(user);
             f.Show();
         }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void Teacher_Schedule_Load(object sender, EventArgs e)
+        {
+            // TODO: This line of code loads data into the 'lMSDataSet1.Registration_Requests' table. You can move, or remove it, as needed.
+            this.registration_RequestsTableAdapter.Fill(this.lMSDataSet1.Registration_Requests);
+
+        }
     }
 }
