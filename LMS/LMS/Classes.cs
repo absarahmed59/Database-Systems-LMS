@@ -12,14 +12,16 @@ namespace LMS
 {
     public partial class Classes : Form
     {
+        string user;
         public Classes(string u)
         {
             InitializeComponent();
+            user = u;
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Student_Profile f = new Student_Profile(u);
+            Student_Profile f = new Student_Profile(user);
             f.Show();
         }
 

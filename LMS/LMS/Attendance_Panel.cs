@@ -12,22 +12,24 @@ namespace LMS
 {
     public partial class Attendance_Panel : Form
     {
-        public Attendance_Panel(string us)
+        string user;
+        public Attendance_Panel(string u)
         {
             InitializeComponent();
+            user = u;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Teacher_Interface f = new Teacher_Interface();
+            Teacher_Interface f = new Teacher_Interface(user);
             f.Show();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Attandence f = new Attandence(u);
+            Attandence f = new Attandence(user);
             f.Show();
         }
 
@@ -35,7 +37,7 @@ namespace LMS
         {
             string s = textBox1.Text;
             this.Hide();
-            Attendance_Report f = new Attendance_Report(s, u);
+            Attendance_Report f = new Attendance_Report(s, user);
             f.Show();
         }
     }

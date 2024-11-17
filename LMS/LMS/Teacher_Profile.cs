@@ -12,15 +12,17 @@ namespace LMS
 {
     public partial class Teacher_Profile : Form
     {
+        string user;
         public Teacher_Profile(string u)
         {
             InitializeComponent();
+            user = u;
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Teacher_Interface f = new Teacher_Interface(u);
+            Teacher_Interface f = new Teacher_Interface(user);
             f.Show();
         }
     }

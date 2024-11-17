@@ -13,9 +13,11 @@ namespace LMS
 {
     public partial class Attandence : Form
     {
+        string user;
         public Attandence(string u)
         {
             InitializeComponent();
+            user = u;
         }
         SqlConnection c = new SqlConnection(@"Data Source=DESKTOP-F3UNILV\SQLEXPRESS;Initial Catalog=LMS;Integrated Security=True");
         private void label4_Click(object sender, EventArgs e)
@@ -61,7 +63,7 @@ namespace LMS
         private void button3_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Attendance_Panel f = new Attendance_Panel();
+            Attendance_Panel f = new Attendance_Panel(user);
             f.Show();
         }
 

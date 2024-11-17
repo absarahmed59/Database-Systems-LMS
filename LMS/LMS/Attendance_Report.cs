@@ -12,18 +12,19 @@ namespace LMS
 {
     public partial class Attendance_Report : Form
     {
-
+        string user;
         public Attendance_Report(string s, string u)
         {
 
             InitializeComponent();
             textBox1.Text = s;
+            user = u;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Attendance_Panel f = new Attendance_Panel(u);
+            Attendance_Panel f = new Attendance_Panel(user);
             f.Show();
         }
 

@@ -12,15 +12,17 @@ namespace LMS
 {
     public partial class Head_Moderation : Form
     {
+        string user;
         public Head_Moderation(string u)
         {
             InitializeComponent();
+            user = u;
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Head_Interface f = new Head_Interface(u);
+            Head_Interface f = new Head_Interface(user);
             f.Show();
         }
 

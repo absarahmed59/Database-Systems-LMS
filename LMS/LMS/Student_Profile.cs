@@ -12,9 +12,11 @@ namespace LMS
 {
     public partial class Student_Profile : Form
     {
+        string user;
         public Student_Profile(string u)
         {
             InitializeComponent();
+            user = u;
         }
 
         private void label4_Click(object sender, EventArgs e)
@@ -25,7 +27,7 @@ namespace LMS
         private void button3_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Student_Interface f = new Student_Interface(u);
+            Student_Interface f = new Student_Interface(user);
             f.Show();
         }
     }

@@ -13,9 +13,11 @@ namespace LMS
 {
     public partial class Result : Form
     {
+        string user;
         public Result(string u)
         {
             InitializeComponent();
+            user = u;
         }
         public string grade(Int32 marks, Int32 h)
         {
@@ -200,7 +202,7 @@ namespace LMS
         private void button4_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Teacher_Interface f = new Teacher_Interface(u);
+            Teacher_Interface f = new Teacher_Interface(user);
             f.Show();
         }
         private void button1_Click(object sender, EventArgs e)

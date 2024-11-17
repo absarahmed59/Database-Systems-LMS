@@ -13,21 +13,17 @@ namespace LMS
 {
     public partial class Admin_Requests : Form
     {
+        string user;
         public Admin_Requests(string u)
         {
             InitializeComponent();
-            /*if (dataGridView1.Rows[i].Cells[0].Value.ToString())
-            {
-                textBox1.Text = dataGridView1.Rows[0].Cells[0].Value.ToString();
-                textBox2.Text = dataGridView1.Rows[0].Cells[1].Value.ToString();
-                textBox3.Text = dataGridView1.Rows[0].Cells[2].Value.ToString();
-            }*/
+            user=u;
         }
         SqlConnection c = new SqlConnection(@"Data Source=DESKTOP-F3UNILV\SQLEXPRESS;Initial Catalog=LMS;Integrated Security=True");
         private void button3_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Head_Interface f = new Head_Interface(u);
+            Head_Interface f = new Head_Interface(user);
             f.Show();
         }
 
