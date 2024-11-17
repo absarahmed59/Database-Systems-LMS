@@ -40,7 +40,7 @@
             // linkLabel2
             // 
             this.linkLabel2.AutoSize = true;
-            this.linkLabel2.Location = new System.Drawing.Point(177, 221);
+            this.linkLabel2.Location = new System.Drawing.Point(177, 184);
             this.linkLabel2.Name = "linkLabel2";
             this.linkLabel2.Size = new System.Drawing.Size(41, 13);
             this.linkLabel2.TabIndex = 10;
@@ -66,7 +66,7 @@
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(147, 144);
+            this.textBox3.Location = new System.Drawing.Point(147, 107);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(100, 20);
             this.textBox3.TabIndex = 12;
@@ -75,7 +75,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(37, 144);
+            this.label3.Location = new System.Drawing.Point(37, 107);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(52, 13);
             this.label3.TabIndex = 11;
@@ -89,7 +89,7 @@
             "Student",
             "Teacher",
             "Head"});
-            this.comboBox2.Location = new System.Drawing.Point(147, 181);
+            this.comboBox2.Location = new System.Drawing.Point(147, 144);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(100, 21);
             this.comboBox2.TabIndex = 16;
@@ -97,7 +97,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(38, 181);
+            this.label5.Location = new System.Drawing.Point(38, 144);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(31, 13);
             this.label5.TabIndex = 15;
@@ -107,7 +107,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.ClientSize = new System.Drawing.Size(284, 237);
             this.Controls.Add(this.comboBox2);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.textBox3);

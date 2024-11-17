@@ -33,7 +33,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(197, 226);
+            this.button3.Location = new System.Drawing.Point(832, 341);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 23);
             this.button3.TabIndex = 110;
@@ -45,7 +45,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.ClientSize = new System.Drawing.Size(919, 376);
             this.Controls.Add(this.button3);
             this.Name = "Student_Schedule";
             this.Text = "Student_Schedule";

@@ -72,22 +72,34 @@ namespace LMS
         }
         int i = 0;
         private void button2_Click(object sender, EventArgs e)
-        {       
+        {
+            try
+            {
                 textBox1.Text = dataGridView1.Rows[i].Cells[0].Value.ToString();
                 textBox2.Text = dataGridView1.Rows[i].Cells[1].Value.ToString();
                 textBox3.Text = dataGridView1.Rows[i].Cells[2].Value.ToString();
                 i++;
 
+            }
+            catch
+            {
+            }
+
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            i--;
-            textBox1.Text = dataGridView1.Rows[i].Cells[0].Value.ToString();
-            textBox2.Text = dataGridView1.Rows[i].Cells[1].Value.ToString();
-            textBox3.Text = dataGridView1.Rows[i].Cells[2].Value.ToString();
+            try
+            {
+                i--;
+                textBox1.Text = dataGridView1.Rows[i].Cells[0].Value.ToString();
+                textBox2.Text = dataGridView1.Rows[i].Cells[1].Value.ToString();
+                textBox3.Text = dataGridView1.Rows[i].Cells[2].Value.ToString();
+            }
+            catch
+            {
+            }
         }
-
         private void dataGridView1_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
         {
 

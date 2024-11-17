@@ -21,8 +21,7 @@ namespace LMS
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Classes f = new Classes(user);
-            f.Show();
+            
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -39,7 +38,7 @@ namespace LMS
 
         private void button5_Click(object sender, EventArgs e)
         {
-
+ 
         }
     }
 }

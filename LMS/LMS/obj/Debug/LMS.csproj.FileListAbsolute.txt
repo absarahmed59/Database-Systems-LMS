@@ -77,7 +77,6 @@ E:\AbsarCodes\BSCS\Database-Systems-LMS\LMS\LMS\obj\Debug\LMS.Attandence.resourc
 E:\AbsarCodes\BSCS\Database-Systems-LMS\LMS\LMS\obj\Debug\LMS.Attendance_Panel.resources
 E:\AbsarCodes\BSCS\Database-Systems-LMS\LMS\LMS\obj\Debug\LMS.Attendance_Report.resources
 E:\AbsarCodes\BSCS\Database-Systems-LMS\LMS\LMS\obj\Debug\LMS.Student_Profile.resources
-E:\AbsarCodes\BSCS\Database-Systems-LMS\LMS\LMS\obj\Debug\LMS.Classes.resources
 E:\AbsarCodes\BSCS\Database-Systems-LMS\LMS\LMS\obj\Debug\LMS.HOD.resources
 E:\AbsarCodes\BSCS\Database-Systems-LMS\LMS\LMS\obj\Debug\LMS.Head_Interface.resources
 E:\AbsarCodes\BSCS\Database-Systems-LMS\LMS\LMS\obj\Debug\LMS.Head_Moderation.resources
@@ -92,3 +91,7 @@ E:\AbsarCodes\BSCS\Database-Systems-LMS\LMS\LMS\obj\Debug\LMS.Teacher_Schedule.r
 E:\AbsarCodes\BSCS\Database-Systems-LMS\LMS\LMS\obj\Debug\LMS.csproj.GenerateResource.Cache
 E:\AbsarCodes\BSCS\Database-Systems-LMS\LMS\LMS\bin\Debug\LMS.exe
 E:\AbsarCodes\BSCS\Database-Systems-LMS\LMS\LMS\bin\Debug\LMS.pdb
+E:\AbsarCodes\BSCS\Database-Systems-LMS\LMS\LMS\obj\Debug\LMS.Class_Schedule.resources
+E:\AbsarCodes\BSCS\Database-Systems-LMS\LMS\LMS\obj\Debug\LMS.Student_Attendance.resources
+E:\AbsarCodes\BSCS\Database-Systems-LMS\LMS\LMS\obj\Debug\LMS.Student_Result.resources
+E:\AbsarCodes\BSCS\Database-Systems-LMS\LMS\LMS\obj\Debug\LMS.Student_Schedule.resources

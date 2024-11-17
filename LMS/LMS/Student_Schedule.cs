@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace LMS
 {
@@ -18,7 +19,7 @@ namespace LMS
             InitializeComponent();
             user = u;
         }
-
+        SqlConnection c = new SqlConnection(@"Data Source=DESKTOP-F3UNILV\SQLEXPRESS;Initial Catalog=LMS;Integrated Security=True");
         private void button3_Click(object sender, EventArgs e)
         {
             this.Hide();

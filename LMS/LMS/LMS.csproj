@@ -73,6 +73,12 @@
     <Compile Include="Attendance_Report.Designer.cs">
       <DependentUpon>Attendance_Report.cs</DependentUpon>
     </Compile>
+    <Compile Include="Class_Schedule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Class_Schedule.Designer.cs">
+      <DependentUpon>Class_Schedule.cs</DependentUpon>
+    </Compile>
     <Compile Include="LMSDataSet3.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -98,17 +104,17 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>LMSDataSet7.xsd</DependentUpon>
     </Compile>
+    <Compile Include="Student_Attendance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student_Attendance.Designer.cs">
+      <DependentUpon>Student_Attendance.cs</DependentUpon>
+    </Compile>
     <Compile Include="Student_Profile.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Student_Profile.Designer.cs">
       <DependentUpon>Student_Profile.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Classes.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Classes.Designer.cs">
-      <DependentUpon>Classes.cs</DependentUpon>
     </Compile>
     <Compile Include="Head.cs">
       <SubType>Form</SubType>
@@ -169,6 +175,18 @@
     <Compile Include="Student_Interface.Designer.cs">
       <DependentUpon>Student_Interface.cs</DependentUpon>
     </Compile>
+    <Compile Include="Student_Result.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student_Result.Designer.cs">
+      <DependentUpon>Student_Result.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Student_Schedule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student_Schedule.Designer.cs">
+      <DependentUpon>Student_Schedule.cs</DependentUpon>
+    </Compile>
     <Compile Include="Teacher_Interface.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -180,12 +198,6 @@
     </Compile>
     <Compile Include="Teacher_Profile.Designer.cs">
       <DependentUpon>Teacher_Profile.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Teacher_Result.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Teacher_Result.Designer.cs">
-      <DependentUpon>Teacher_Result.cs</DependentUpon>
     </Compile>
     <Compile Include="Teacher_Schedule.cs">
       <SubType>Form</SubType>
@@ -205,11 +217,14 @@
     <EmbeddedResource Include="Attendance_Report.resx">
       <DependentUpon>Attendance_Report.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Class_Schedule.resx">
+      <DependentUpon>Class_Schedule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student_attendance.resx">
+      <DependentUpon>Student_Attendance.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Student_Profile.resx">
       <DependentUpon>Student_Profile.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Classes.resx">
-      <DependentUpon>Classes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Head.resx">
       <DependentUpon>Head.cs</DependentUpon>
@@ -240,6 +255,12 @@
     </Compile>
     <EmbeddedResource Include="Student_Interface.resx">
       <DependentUpon>Student_Interface.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student_Result.resx">
+      <DependentUpon>Student_Result.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student_Schedule.resx">
+      <DependentUpon>Student_Schedule.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Teacher_Interface.resx">
       <DependentUpon>Teacher_Interface.cs</DependentUpon>
