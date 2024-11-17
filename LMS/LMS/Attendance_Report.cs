@@ -13,7 +13,7 @@ namespace LMS
     public partial class Attendance_Report : Form
     {
 
-        public Attendance_Report(string s)
+        public Attendance_Report(string s, string u)
         {
 
             InitializeComponent();
@@ -23,7 +23,7 @@ namespace LMS
         private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Attendance_Panel f = new Attendance_Panel();
+            Attendance_Panel f = new Attendance_Panel(u);
             f.Show();
         }
 

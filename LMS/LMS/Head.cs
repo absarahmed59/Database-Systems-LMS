@@ -12,26 +12,26 @@ namespace LMS
 {
     public partial class HOD : Form
     {
-        public HOD()
+        public HOD(string u)
         {
             InitializeComponent();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Classes f = new Classes();
+            Classes f = new Classes(u);
             f.Show();
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            Result f = new Result();
+            Result f = new Result(u);
             f.Show();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Attandence f = new Attandence();
+            Attandence f = new Attandence(u);
             f.Show();
         }
 

@@ -13,7 +13,7 @@ namespace LMS
 {
     public partial class Attandence : Form
     {
-        public Attandence()
+        public Attandence(string u)
         {
             InitializeComponent();
         }

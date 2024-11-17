@@ -68,3 +68,6 @@ E:\AbsarCodes\Database-Systems-LMS\LMS\LMS\obj\Debug\LMS.Teacher_Schedule.resour
 E:\AbsarCodes\Database-Systems-LMS\LMS\LMS\obj\Debug\LMS.csproj.GenerateResource.Cache
 E:\AbsarCodes\Database-Systems-LMS\LMS\LMS\bin\Debug\LMS.exe
 E:\AbsarCodes\Database-Systems-LMS\LMS\LMS\bin\Debug\LMS.pdb
+E:\AbsarCodes\BSCS\Database-Systems-LMS\LMS\LMS\bin\Debug\LMS.exe.config
+E:\AbsarCodes\BSCS\Database-Systems-LMS\LMS\LMS\obj\Debug\LMS.exe
+E:\AbsarCodes\BSCS\Database-Systems-LMS\LMS\LMS\obj\Debug\LMS.pdb

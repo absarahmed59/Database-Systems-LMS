@@ -13,7 +13,7 @@ namespace LMS
 {
     public partial class Result : Form
     {
-        public Result()
+        public Result(string u)
         {
             InitializeComponent();
         }
@@ -200,7 +200,7 @@ namespace LMS
         private void button4_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Teacher_Interface f = new Teacher_Interface();
+            Teacher_Interface f = new Teacher_Interface(u);
             f.Show();
         }
         private void button1_Click(object sender, EventArgs e)

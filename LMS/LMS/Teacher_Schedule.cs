@@ -12,7 +12,7 @@ namespace LMS
 {
     public partial class Teacher_Schedule : Form
     {
-        public Teacher_Schedule()
+        public Teacher_Schedule(string u)
         {
             InitializeComponent();
         }
@@ -20,7 +20,7 @@ namespace LMS
         private void button3_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Teacher_Interface f = new Teacher_Interface();
+            Teacher_Interface f = new Teacher_Interface(u);
             f.Show();
         }
     }

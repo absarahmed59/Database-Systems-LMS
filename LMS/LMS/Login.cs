@@ -45,7 +45,7 @@ namespace LMS
                         if (p == textBox2.Text)
                         {
                             this.Hide();
-                            Head_Interface f = new Head_Interface();
+                            Head_Interface f = new Head_Interface(u);
                             f.Show();
                         }
                     }
@@ -58,7 +58,7 @@ namespace LMS
                         if (p == textBox2.Text)
                         {
                             this.Hide();
-                            Teacher_Interface f = new Teacher_Interface();
+                            Teacher_Interface f = new Teacher_Interface(u);
                             f.Show();
                         }
                     }
@@ -71,7 +71,7 @@ namespace LMS
                         if (p == textBox2.Text)
                         {
                             this.Hide();
-                            Student_Interface f = new Student_Interface();
+                            Student_Interface f = new Student_Interface(u);
                             f.Show();
                         }
                     }

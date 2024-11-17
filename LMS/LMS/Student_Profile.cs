@@ -12,7 +12,7 @@ namespace LMS
 {
     public partial class Student_Profile : Form
     {
-        public Student_Profile()
+        public Student_Profile(string u)
         {
             InitializeComponent();
         }
@@ -25,7 +25,7 @@ namespace LMS
         private void button3_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Student_Interface f = new Student_Interface();
+            Student_Interface f = new Student_Interface(u);
             f.Show();
         }
     }

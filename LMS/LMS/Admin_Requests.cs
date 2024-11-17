@@ -13,7 +13,7 @@ namespace LMS
 {
     public partial class Admin_Requests : Form
     {
-        public Admin_Requests()
+        public Admin_Requests(string u)
         {
             InitializeComponent();
             /*if (dataGridView1.Rows[i].Cells[0].Value.ToString())
@@ -27,7 +27,7 @@ namespace LMS
         private void button3_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Head_Interface f = new Head_Interface();
+            Head_Interface f = new Head_Interface(u);
             f.Show();
         }
 

@@ -12,7 +12,7 @@ namespace LMS
 {
     public partial class Head_Interface : Form
     {
-        public Head_Interface()
+        public Head_Interface(string u)
         {
             InitializeComponent();
         }
@@ -32,14 +32,14 @@ namespace LMS
         private void button6_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Head_Moderation f = new Head_Moderation();
+            Head_Moderation f = new Head_Moderation(u);
             f.Show();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Admin_Requests f = new Admin_Requests();
+            Admin_Requests f = new Admin_Requests(u);
             f.Show();
         }
     }

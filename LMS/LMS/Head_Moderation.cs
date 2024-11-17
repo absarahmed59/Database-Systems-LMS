@@ -12,7 +12,7 @@ namespace LMS
 {
     public partial class Head_Moderation : Form
     {
-        public Head_Moderation()
+        public Head_Moderation(string u)
         {
             InitializeComponent();
         }
@@ -20,7 +20,7 @@ namespace LMS
         private void button5_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Head_Interface f = new Head_Interface();
+            Head_Interface f = new Head_Interface(u);
             f.Show();
         }
 
