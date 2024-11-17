@@ -33,10 +33,17 @@ namespace LMS
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            Class_Schedule f = new Class_Schedule(user);
+            f.Show();
         }
 
         private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
         {
 
         }
