@@ -68,5 +68,18 @@ namespace LMS
             cmd2.ExecuteNonQuery();
             c.Close();
         }
+
+        private void textBox6_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click_1(object sender, EventArgs e)
+        {
+            SqlCommand cmd = new SqlCommand("Update Login Set Password = '" + textBox6.Text + "' WHERE Username = '" + user + "'");
+            c.Open();
+            cmd.ExecuteNonQuery();
+            c.Close();
+        }
     }
 }

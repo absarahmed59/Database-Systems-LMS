@@ -13,11 +13,10 @@ namespace LMS
     public partial class Attendance_Report : Form
     {
         string user;
-        public Attendance_Report(string s, string u)
+        public Attendance_Report(string u)
         {
 
             InitializeComponent();
-            textBox1.Text = s;
             user = u;
         }
 

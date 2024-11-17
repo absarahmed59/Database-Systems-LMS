@@ -44,7 +44,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.attendanceTableAdapter = new LMS.LMSDataSet7TableAdapters.AttendanceTableAdapter();
             this.attendanceBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
-            this.textBox1 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.attendanceBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lMSDataSet7)).BeginInit();
@@ -161,19 +160,11 @@
             this.attendanceBindingSource1.DataMember = "Attendance";
             this.attendanceBindingSource1.DataSource = this.lMSDataSet7;
             // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(299, 257);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 121;
-            // 
             // Attendance_Report
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(699, 326);
-            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.fillByToolStrip);
             this.Controls.Add(this.dataGridView1);
@@ -209,6 +200,5 @@
         private System.Windows.Forms.ToolStripButton fillByToolStripButton;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.BindingSource attendanceBindingSource1;
-        private System.Windows.Forms.TextBox textBox1;
     }
 }

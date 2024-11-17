@@ -35,9 +35,8 @@ namespace LMS
 
         private void button2_Click(object sender, EventArgs e)
         {
-            string s = textBox1.Text;
             this.Hide();
-            Attendance_Report f = new Attendance_Report(s, user);
+            Attendance_Report f = new Attendance_Report(user);
             f.Show();
         }
     }
